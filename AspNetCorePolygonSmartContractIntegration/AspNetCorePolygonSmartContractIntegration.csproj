@@ -6,4 +6,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Nethereum.Web3" Version="4.15.2" />
+  </ItemGroup>
+
 </Project>

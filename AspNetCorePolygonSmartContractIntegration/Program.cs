@@ -1,7 +1,11 @@
+using AspNetCorePolygonSmartContractIntegration.Service;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddScoped<IPolygonNetworkService, PolygonNetworkService>();
 
 var app = builder.Build();
 
