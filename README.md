@@ -41,8 +41,9 @@ Polygon Network, formerly known as Matic Network, is a Layer 2 scaling solution 
 	    getNFTDetailFunction.ItemId = 1;
 	    var getNFTDetailOutputDTO = await contractHandler.QueryDeserializingToObjectAsync<GetNFTDetailFunction, GetNFTDetailOutputDTO>(getNFTDetailFunction);
   }
+![p-2](https://github.com/yuzh37/AspNetCorePolygonSmartContractIntegration/assets/103303397/4988aa7e-2df0-4e5c-bb99-8cb7bd86e1ed)
+
 ![p-3](https://github.com/yuzh37/AspNetCorePolygonSmartContractIntegration/assets/103303397/2a530fbf-0426-422a-af74-007b442889e3)
-![Uploading p-2.png…]()
 
   Conclusion
   This article provides the source code for developers interested in connecting to Polygon smart contracts using C#. By leveraging C# for Polygon implementations, developers benefit from broad adoption, interoperability, smart contract support, security, and performance. By following the guidelines outlined in the article, developers can seamlessly integrate Polygon features into their C# applications to extend functionality and leverage the Polygon ecosystem.
