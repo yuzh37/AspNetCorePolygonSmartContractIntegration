@@ -1,3 +1,4 @@
+![p-1](https://github.com/yuzh37/AspNetCorePolygonSmartContractIntegration/assets/103303397/5259702d-95da-4fdc-8e5b-66f30e68a421)
 # AspNetCorePolygonSmartContractIntegration
 
 C# (AspNetCore) integration with Polygon Network Smart Contracts
@@ -10,6 +11,7 @@ Polygon Network, formerly known as Matic Network, is a Layer 2 scaling solution 
  You can sign up/log in to Alchemy and create new app. After that you can get polygon network api key.
  Connect with infura
  You can sign up/log in to https://app.infura.io and enable polygon network to get api key.
+![p-1](https://github.com/yuzh37/AspNetCorePolygonSmartContractIntegration/assets/103303397/bb807f53-a686-4ded-960f-647c01e08558)
 
  Connecting to Polygon chain using C#
  C# (pronounced "C sharp") is a modern, general-purpose programming language developed by Microsoft. It was introduced in the early 2000s as part of the .NET framework and has since become one of the most popular programming languages for building various applications. C# provides a package named "Nethereum" which we can use to connect and communicate with Ethereum and Ethereum-based blockchains, such as Polygon. We are using C# to connect to the Polygon Blockchain due to various benefits like, 
@@ -40,8 +42,7 @@ Polygon Network, formerly known as Matic Network, is a Layer 2 scaling solution 
 	    getNFTDetailFunction.ItemId = 1;
 	    var getNFTDetailOutputDTO = await contractHandler.QueryDeserializingToObjectAsync<GetNFTDetailFunction, GetNFTDetailOutputDTO>(getNFTDetailFunction);
   }
-
+![Uploading p-2.png…]()
+![Uploading p-3.png…]()
   Conclusion
-	This article provides the source code for developers interested in connecting to Polygon smart contracts using C#. By leveraging C# for Polygon implementations, developers benefit from broad adoption, interoperability, smart contract support, security, and performance.
-
-	By following the guidelines outlined in the article, developers can seamlessly integrate Polygon features into their C# applications to extend functionality and leverage the Polygon ecosystem.
+  This article provides the source code for developers interested in connecting to Polygon smart contracts using C#. By leveraging C# for Polygon implementations, developers benefit from broad adoption, interoperability, smart contract support, security, and performance. By following the guidelines outlined in the article, developers can seamlessly integrate Polygon features into their C# applications to extend functionality and leverage the Polygon ecosystem.
