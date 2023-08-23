@@ -45,10 +45,10 @@ namespace AspNetCorePolygonSmartContractIntegration.Service
 
             if (ConnectWeb3())
             {
-                //var myNFTDeployment = new MyNFTDeployment();
+                var myNFTDeployment = new MyNFTDeployment();
 
-                //var transactionReceiptDeployment = await Accountweb3.Eth.GetContractDeploymentHandler<MyNFTDeployment>().SendRequestAndWaitForReceiptAsync(myNFTDeployment);
-                //var contractAddress = transactionReceiptDeployment.ContractAddress;
+                var transactionReceiptDeployment = await Accountweb3.Eth.GetContractDeploymentHandler<MyNFTDeployment>().SendRequestAndWaitForReceiptAsync(myNFTDeployment);
+                var contractAddress = transactionReceiptDeployment.ContractAddress;
                 var contractHandler = Accountweb3.Eth.GetContractHandler(_contractAddress);
 
                 var mintNFTFunctionTxnReceipt = await contractHandler.SendRequestAndWaitForReceiptAsync<MintNFTFunction>();
